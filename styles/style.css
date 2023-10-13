@@ -229,9 +229,25 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   height: 298px;
   overflow-y: auto;
+}
+
+.content__list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.content__list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.70);
+}
+
+.content__list::-webkit-scrollbar-thumb {
+  background-color: #545050;
+  width: 4px;
+}
+
+.content__list-item {
+  margin-bottom: 30px;
 }
 
 .content__card-link {
@@ -262,6 +278,11 @@ ol {
   text-decoration: none;
 }
 
+.content__card-link_current {
+  border-color: #545050;
+  background-color: #545050;
+}
+
 .content__video-card {
   display: flex;
 }
@@ -284,6 +305,7 @@ ol {
   font-size: 30px;
   line-height: 100%;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
@@ -302,10 +324,3 @@ ol {
 .content__accent {
   color: #545050;
 }  
-
-
-
-
-
-
- 
