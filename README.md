@@ -6,14 +6,9 @@ Posmotri V Okno — это учебный проект, разработанны
 
 <h2>Технологии:</h2>
 
-• React  
 • CSS  
 • JavaScript  
 • HTML  
-• REST API  
-• Webpack  
-• Jest  
-• Cypress  
 
 <h2>Функциональность:</h2>
 
